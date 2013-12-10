@@ -31,11 +31,11 @@ do
 		h)
 			echo "Usage:"
 			echo "-d dpi      : Integer value; DPI to process all files with."\
-				"Default: ${dpi}."
+				"Default: 300."
 			echo "-i pattern  : Pattern matching the scanned pages that should"\
-				"be processed. Default: ${in_pattern}."
+				"be processed. Default: '.*.(tif|tiff|pdf)'."
 			echo "-o filename : How should the final PDF be called?"\
-				"Default: ${out_name}."
+				"Default: 'book-ocr.pdf'."
 			exit 0
 			;;
 	esac
